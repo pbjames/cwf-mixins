@@ -86,7 +86,8 @@ sourceSets {
 }
 
 mixin {
-    config mod_mixin_configs.replace('${mod_id}', mod_id)
+  // add more here ig
+    config mod_mixin_configs.replace('${mod_id}', mod_id).replace('${mod}', 'techguns')
 }
 
 jar {

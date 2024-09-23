@@ -23,6 +23,7 @@ public abstract class BulletsBreakGlass extends Entity {
   @Inject(method = "sendImpactFX", at = @At("HEAD"), remap = false)
   protected void sendImpactFX(
       double x, double y, double z, float pitch, float yaw, int type, CallbackInfo ci) {
+    System.out.println("IM IN!!");
     if (this.world.isRemote || type != 2) {
       return;
     }
@@ -32,6 +33,7 @@ public abstract class BulletsBreakGlass extends Entity {
     BlockPos localBlockPos = new BlockPos(new Vec3d(x, y, z));
     Block localBlock = this.world.getBlockState(localBlockPos).getBlock();
     if (ALLOWLIST.contains(localBlock)) {
+      System.out.println("Contained");
       this.world.destroyBlock(localBlockPos, false);
     }
   }

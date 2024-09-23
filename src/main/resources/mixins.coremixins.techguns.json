@@ -1,6 +1,6 @@
 {
   "compatibilityLevel": "JAVA_8",
-  "package": "coremixins.mixin",
+  "package": "coremixins.mixin.techguns",
   "refmap": "refmap.coremixins.json",
   "mixins": [
     "BulletsBreakGlass"
