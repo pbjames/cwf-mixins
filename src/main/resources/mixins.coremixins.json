@@ -1,0 +1,10 @@
+{
+  "compatibilityLevel": "JAVA_8",
+  "package": "coremixins.mixin",
+  "refmap": "refmap.coremixins.json",
+  "mixins": [
+    "BulletsBreakGlass"
+  ],
+  "client": [],
+  "server": []
+}
