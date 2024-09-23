@@ -86,7 +86,7 @@ sourceSets {
 }
 
 mixin {
-  // add more here ig
+    // add more here ig
     config mod_mixin_configs.replace('${mod_id}', mod_id).replace('${mod}', 'techguns')
 }
 

@@ -4,7 +4,9 @@
   "refmap": "refmap.coremixins.json",
   "mixins": [
     "BulletsBreakGlass",
-    "AIFurtherRange"
+    "AIFurtherRange",
+    "StackUpCompatGenericItem",
+    "StackUpCompatGenericItemShared"
   ],
   "client": [],
   "server": []
