@@ -23,17 +23,17 @@ public abstract class BulletsBreakGlass extends Entity {
   @Inject(method = "sendImpactFX", at = @At("HEAD"), remap = false)
   protected void sendImpactFX(
       double x, double y, double z, float pitch, float yaw, int type, CallbackInfo ci) {
-    System.out.println("IM IN!!");
+    // System.out.println("IM IN!!");
     if (this.world.isRemote || type != 2) {
       return;
     }
     List<Block> ALLOWLIST = new ArrayList<Block>();
     ALLOWLIST.add(Blocks.GLASS_PANE);
-    System.out.println("im in the mainframe");
+    // System.out.println("im in the mainframe");
     BlockPos localBlockPos = new BlockPos(new Vec3d(x, y, z));
     Block localBlock = this.world.getBlockState(localBlockPos).getBlock();
     if (ALLOWLIST.contains(localBlock)) {
-      System.out.println("Contained");
+      // System.out.println("Contained");
       this.world.destroyBlock(localBlockPos, false);
     }
   }
