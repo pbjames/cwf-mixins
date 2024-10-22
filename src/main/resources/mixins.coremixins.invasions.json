@@ -1,0 +1,14 @@
+{
+  "compatibilityLevel": "JAVA_8",
+  "package": "coremixins.mixin.invasions",
+  "refmap": "refmap.coremixins.json",
+  "mixins": [],
+  "client": [],
+  "server": [
+    "CanSpawnAttackHelisInvasion"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "required": true
+}
