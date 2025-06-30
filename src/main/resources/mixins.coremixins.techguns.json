@@ -6,11 +6,7 @@
     "BulletsBreakGlass",
     "AIFurtherRange",
     "StackUpCompatGenericItem",
-    "StackUpCompatGenericItemShared",
-    "HazmatBuff",
-    "RadiationUnifyRadaway",
-    "RadiationUnifyRadX",
-    "RadiationUnifyRadiation"
+    "StackUpCompatGenericItemShared"
   ],
   "client": [],
   "server": []
