@@ -60,8 +60,8 @@ dependencies {
         exclude module: 'gson'
     }
     implementation "curse.maven:techguns-244201:2958103"
-    implementation "curse.maven:nuclearcraft-overhauled-336895:5446445"
-    //implementation "curse.maven:dynamic-lights-227874:2563244"
+    // implementation "curse.maven:nuclearcraft-overhauled-336895:5446445"
+    // implementation "curse.maven:dynamic-lights-227874:2563244"
 }
 
 processResources {
