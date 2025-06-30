@@ -1,2 +1,2 @@
-# forge-mixin-example
-An example for using Mixin in Minecraft Forge
+# CWF Mixins
+Mostly just patching techguns feel free to make requests david

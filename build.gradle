@@ -59,8 +59,6 @@ dependencies {
         exclude module: 'commons-io'
         exclude module: 'gson'
     }
-    implementation files("libs/hostileworlds_invasions-1.12.1-1.1.13.jar")
-    implementation files("libs/coroutil-1.12.1-1.2.37.jar")
     implementation "curse.maven:techguns-244201:2958103"
     implementation "curse.maven:nuclearcraft-overhauled-336895:5446445"
     //implementation "curse.maven:dynamic-lights-227874:2563244"
@@ -92,7 +90,6 @@ sourceSets {
 mixin {
     // add more here ig
     config mod_mixin_configs.replace('${mod_id}', mod_id).replace('${mod}', 'techguns')
-    config mod_mixin_configs.replace('${mod_id}', mod_id).replace('${mod}', 'invasions')
 }
 
 jar {
